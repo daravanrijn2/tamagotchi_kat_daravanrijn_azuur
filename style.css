@@ -1,0 +1,59 @@
+body{
+    background-image: url('images/achtergrond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+/* Hulp van Quinten met afbeeldingen*/
+.afbeeldingen{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vw;  
+}
+
+.afbeeldingen img{
+    object-fit: contain;
+}   
+
+.afbeeldingen img:nth-of-type(1){
+    width: 15%;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.afbeeldingen img:nth-of-type(2){
+    width: 40%;
+    margin-top: 175px;
+    margin-left: 80px;
+    
+}
+.afbeeldingen img:nth-of-type(3){
+    width: 13%;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.progressbars{
+    margin-top: 20px;
+}
+
+/* Hulp van Quinten */
+.progressbars div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; 
+}
+
+progress{
+    width: 300px;
+    height: 30px;
+}
